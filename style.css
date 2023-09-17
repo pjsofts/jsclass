@@ -1,0 +1,35 @@
+body{
+    background-color: #f2f2f2;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    width: 400px;
+    margin: 10px;
+}
+
+button {
+    padding : 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 10px;
+}
+.products div {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
